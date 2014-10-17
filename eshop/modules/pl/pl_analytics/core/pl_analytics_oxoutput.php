@@ -65,7 +65,9 @@ class pl_analytics_oxoutput extends pl_analytics_oxoutput_parent
     public function process($sValue, $sClassName)
     {
         $sValue = parent::process($sValue, $sClassName);
-        $sValue = $this->plReplaceBody( $sValue);
+        if ($sClassName != 'oxemail') {
+            $sValue = $this->plReplaceBody( $sValue);
+        }
         return $sValue;
     }
 }

@@ -11,7 +11,7 @@
 	$aModule = array(
 		'id'		=> 'pl_analytics',
 		'title'		=> 'paul-lamp.de Google Analytics eCommerce Tracking',
-		'version'	=> '0.1',
+		'version'	=> '0.2',
 		'author'	=> 'Paul Lamp / http://www.paul-lamp.de',
 		'email'		=> 'pl@paul-lamp.de',
 		'url'     => 'https://github.com/spoilie/pl_analytics',
